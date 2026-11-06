@@ -2,7 +2,7 @@
 
 <img src="./assets/header.svg" width="100%" alt="Shoaib Shah. Browser tools, data utilities, and open source." />
 
-[**About**](#about) &nbsp;·&nbsp; [**Merged upstream**](#merged-upstream) &nbsp;·&nbsp; [**Projects**](#projects) &nbsp;·&nbsp; [**Toolkit**](#toolkit) &nbsp;·&nbsp; [**Activity**](#activity) &nbsp;·&nbsp; [**Get in touch ↗**](https://linkedin.com/in/sshnox)
+[**About**](#about) &nbsp;·&nbsp; [**Merged upstream**](#merged-upstream) &nbsp;·&nbsp; [**Projects**](#projects) &nbsp;·&nbsp; [**Toolkit**](#toolkit) &nbsp;·&nbsp; [**Stats**](#github-stats) &nbsp;·&nbsp; [**Activity**](#activity) &nbsp;·&nbsp; [**Get in touch ↗**](https://linkedin.com/in/sshnox)
 
 </div>
 
@@ -198,6 +198,16 @@ Linux Mint, Cinnamon, Ubuntu, Debian.
 </td>
 </tr>
 </table>
+
+## GitHub stats
+
+<img src="https://raw.githubusercontent.com/sshnox/github-profile/stats/github-stats.svg" alt="Public GitHub stats for sshnox: repositories, followers, stars earned, and upstream merges" width="100%" />
+
+[Open GitHub profile ↗](https://github.com/sshnox) &nbsp;·&nbsp; [View merged PRs ↗](https://github.com/pulls?q=is%3Apr+is%3Amerged+is%3Apublic+author%3Asshnox+-user%3Asshnox)
+
+![Profile views](https://komarev.com/ghpvc/?username=sshnox&label=Profile%20views&color=375d4a)
+
+<sub>Account stats refresh hourly. Profile views count badge requests on pages where the badge appears.</sub>
 
 ## Activity
 
