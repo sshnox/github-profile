@@ -1,38 +1,20 @@
 <div align="center">
 
-<img src="./assets/header.svg" width="100%" alt="Shoaib Shah. Browser tools, data workflows, and open-source fixes." />
+<img src="./assets/header.svg" width="100%" alt="Shoaib Shah. I build small tools for everyday work." />
 
-<a href="#projects"><img alt="Explore projects" src="https://img.shields.io/badge/Explore_projects-087E8B?style=for-the-badge&amp;logo=github&amp;logoColor=white" /></a>
-<a href="https://shoaibshah.com"><img alt="Portfolio" src="https://img.shields.io/badge/Portfolio-4338CA?style=for-the-badge&amp;logo=googlechrome&amp;logoColor=white" /></a>
-<a href="https://linkedin.com/in/sshnox"><img alt="Connect on LinkedIn" src="https://img.shields.io/badge/Connect_on_LinkedIn-0A66C2?style=for-the-badge" /></a>
-
-[Open source](#merged-upstream) · [Projects](#projects) · [Stack](#stack) · [Activity](#github-activity)
+[**Merged upstream**](#merged-upstream) &nbsp;·&nbsp; [**Projects**](#projects) &nbsp;·&nbsp; [**Stack**](#stack) &nbsp;·&nbsp; [**Activity**](#activity) &nbsp;·&nbsp; [**Get in touch ↗**](https://linkedin.com/in/sshnox)
 
 </div>
 
-I build tools for work I run into every day, from cleaning company data to tracking AI usage and stripping metadata from images.
-
-<details>
-<summary><b>Looking for a tool?</b></summary>
-
-[Remove image metadata](https://sshnox.github.io/excise/) · [Clean company names](https://github.com/sshnox/company-name-cleaner) · [Track Claude usage](https://github.com/sshnox/Claude-Usage-Tracker-v2.1.0)
-
-</details>
-
-<details>
-<summary><b>Here for open source?</b></summary>
-
-Start with the fixes below. Each link takes you to the discussion and merged code.
-
-</details>
+I like building tools that take a step out of someone’s day. That might mean cleaning a company list before a CRM import, checking Claude usage without leaving the chat, or stripping metadata from an image before sharing it.
 
 ## Merged upstream
 
-| Project | Area | What I changed |
+| Project | What changed | Merged |
 | :--- | :--- | :--- |
-| Releaseproof | CLI / CI | [Give invalid commands their own exit code so CI can distinguish usage errors from release mismatches](https://github.com/ujjwalv01/releaseproof/pull/156) |
-| Awesome LLM Apps | AI / knowledge graphs | [Keep full source text available when expanding Knowledge Explorer nodes](https://github.com/Shubhamsaboo/awesome-llm-apps/pull/1282) |
-| Go Magnetar | Go / agent tooling | [Show enabled agents when someone runs `/agent` without arguments](https://github.com/wmentor/go-magnetar/pull/283) |
+| **Releaseproof** | [Invalid CLI usage now exits with code 2, so a typo can’t look like a release mismatch in CI.](https://github.com/ujjwalv01/releaseproof/pull/156) | Nov 6, 2026 |
+| **Awesome LLM Apps** | [Knowledge Explorer keeps the full source text available when expanding a graph node.](https://github.com/Shubhamsaboo/awesome-llm-apps/pull/1282) | Nov 6, 2026 |
+| **Go Magnetar** | [Running `/agent` without arguments now shows the enabled agents.](https://github.com/wmentor/go-magnetar/pull/283) | Nov 4, 2026 |
 
 ## Projects
 
@@ -40,30 +22,36 @@ Start with the fixes below. Each link takes you to the discussion and merged cod
 <tr>
 <td width="50%" valign="top">
 
-### Claude Usage Tracker
-See Claude usage limits below the chat composer.
+<img src="./assets/tracker.svg" alt="Diagram of a usage bar below the Claude chat composer" width="100%" />
 
-[View source →](https://github.com/sshnox/Claude-Usage-Tracker-v2.1.0)
+### Claude Usage Tracker
+
+See your limits under the Claude chat composer without leaving the conversation.
+
+[**Install from source ↗**](https://github.com/sshnox/Claude-Usage-Tracker-v2.1.0#readme)
 
 <details>
 <summary>How it works</summary>
 
-A browser extension displays usage for the active Claude session. It needs no API keys or pasted session tokens.
+The Chrome extension uses the active Claude session. It doesn’t ask you to paste a session token or supply an API key.
 
 </details>
 
 </td>
 <td width="50%" valign="top">
 
-### Company Name Cleaner
-Normalize messy company names before importing lists into a CRM.
+<img src="./assets/cleaner.svg" alt="Example of company names before and after normalization" width="100%" />
 
-[View source →](https://github.com/sshnox/company-name-cleaner)
+### Company Name Cleaner
+
+Clean company names in the browser before importing a list into your CRM.
+
+[**View repository ↗**](https://github.com/sshnox/company-name-cleaner)
 
 <details>
-<summary>How it works</summary>
+<summary>Where it fits</summary>
 
-The cleaner runs client-side, so the workflow stays in the browser.
+Use it between collecting a company list and importing the records into a CRM or outreach tool.
 
 </details>
 
@@ -72,25 +60,31 @@ The cleaner runs client-side, so the workflow stays in the browser.
 <tr>
 <td width="50%" valign="top">
 
-### Excise
-Remove C2PA, EXIF, and XMP metadata from images.
+<img src="./assets/excise.svg" alt="Diagram of an image with its C2PA, EXIF, and XMP metadata selected for removal" width="100%" />
 
-[Try it →](https://sshnox.github.io/excise/) · [View source →](https://github.com/sshnox/excise)
+### Excise
+
+Remove C2PA, EXIF, and XMP data from images before sharing them.
+
+[**Open the tool ↗**](https://sshnox.github.io/excise/) &nbsp;·&nbsp; [Source](https://github.com/sshnox/excise)
 
 <details>
-<summary>When I use it</summary>
+<summary>Where it fits</summary>
 
-Before sharing an image that might carry location, camera, or editing information.
+Useful when a photo’s metadata may reveal a location, a device, or editing information you’d prefer to keep private.
 
 </details>
 
 </td>
 <td width="50%" valign="top">
 
-### Signal E2E Chat
-Explore how end-to-end encrypted messaging fits together.
+<img src="./assets/signal.svg" alt="Diagram of two clients passing encrypted messages through a relay" width="100%" />
 
-[View source →](https://github.com/sshnox/Signal-e2e-chat)
+### Signal E2E Chat
+
+An experiment in end-to-end encrypted messaging.
+
+[**Explore the code ↗**](https://github.com/sshnox/Signal-e2e-chat)
 
 <details>
 <summary>What’s inside</summary>
@@ -103,25 +97,25 @@ Session setup, ratcheting, safety numbers, and a WebSocket relay.
 </tr>
 </table>
 
-[Browse all repositories →](https://github.com/sshnox?tab=repositories)
+[Browse all repositories ↗](https://github.com/sshnox?tab=repositories)
 
 ## Stack
 
-| Area | Tools | See it in use |
+| What I work on | Tools | Example |
 | :--- | :--- | :--- |
-| Browser tools | <img alt="JavaScript, Chrome" height="32" src="https://skillicons.dev/icons?i=js,html,css" /> JavaScript, Chrome Extensions | [Claude Usage Tracker](https://github.com/sshnox/Claude-Usage-Tracker-v2.1.0) |
-| Data workflows | <img alt="JavaScript" height="32" src="https://skillicons.dev/icons?i=js" /> JavaScript, client-side processing | [Company Name Cleaner](https://github.com/sshnox/company-name-cleaner) |
-| Systems | <img alt="Node.js, Git, Linux" height="32" src="https://skillicons.dev/icons?i=nodejs,git,linux" /> Node.js, WebSockets | [Signal E2E Chat](https://github.com/sshnox/Signal-e2e-chat) |
+| Browser extensions | <img alt="JavaScript, HTML, CSS" height="30" src="https://skillicons.dev/icons?i=js,html,css" /> | [Claude Usage Tracker](https://github.com/sshnox/Claude-Usage-Tracker-v2.1.0) |
+| Client-side data cleanup | <img alt="JavaScript" height="30" src="https://skillicons.dev/icons?i=js" /> | [Company Name Cleaner](https://github.com/sshnox/company-name-cleaner) |
+| Messaging and developer tooling | <img alt="Node.js, Go, Git" height="30" src="https://skillicons.dev/icons?i=nodejs,go,git" /> | [Signal E2E Chat](https://github.com/sshnox/Signal-e2e-chat) · [Go Magnetar](https://github.com/wmentor/go-magnetar/pull/283) |
 
-## GitHub activity
+## Activity
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sshnox/github-profile/output/snake-dark.svg" />
   <img src="https://raw.githubusercontent.com/sshnox/github-profile/output/snake-light.svg" alt="Animated snake moving through Shoaib’s GitHub contribution calendar" width="100%" />
 </picture>
 
-## Connect
+## Get in touch
 
-**Got a workflow you’d like to automate or a tool you’d like to build?**
+**What’s one task you’re tired of doing by hand?**
 
-[Message me on LinkedIn →](https://linkedin.com/in/sshnox) · [Visit my site →](https://shoaibshah.com)
+[**Message me on LinkedIn ↗**](https://linkedin.com/in/sshnox) &nbsp;·&nbsp; [Visit my site ↗](https://shoaibshah.com)
