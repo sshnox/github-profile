@@ -1,12 +1,16 @@
 <div align="center">
 
-<img src="./assets/header.svg" width="100%" alt="Shoaib Shah. I build small tools for everyday work." />
+<img src="./assets/header.svg" width="100%" alt="Shoaib Shah. Browser tools, data cleanup, and outreach operations." />
 
-[**Merged upstream**](#merged-upstream) &nbsp;·&nbsp; [**Projects**](#projects) &nbsp;·&nbsp; [**Toolkit**](#toolkit) &nbsp;·&nbsp; [**Activity**](#activity) &nbsp;·&nbsp; [**Get in touch ↗**](https://linkedin.com/in/sshnox)
+[**About**](#about) &nbsp;·&nbsp; [**Merged upstream**](#merged-upstream) &nbsp;·&nbsp; [**Projects**](#projects) &nbsp;·&nbsp; [**Toolkit**](#toolkit) &nbsp;·&nbsp; [**Activity**](#activity) &nbsp;·&nbsp; [**Get in touch ↗**](https://linkedin.com/in/sshnox)
 
 </div>
 
-I like building tools that take a step out of someone’s day. That might mean cleaning a company list before a CRM import, checking Claude usage without leaving the chat, or stripping metadata from an image before sharing it.
+## About
+
+My day-to-day work is in business development. I clean prospect lists before they go into a CRM, set up outbound email, and review campaign results. Some of my software starts with a step I’ve done by hand often enough to know what should be easier. [Company Name Cleaner](https://github.com/sshnox/company-name-cleaner) and [Claude Usage Tracker](https://github.com/sshnox/Claude-Usage-Tracker-v2.1.0) came out of that kind of work.
+
+When I contribute upstream, I like fixes where you can see the difference in one example. A mistyped CLI flag should tell CI the command was invalid. A knowledge graph node should keep the source text you need to expand it. [See the merged changes](#merged-upstream).
 
 ## Merged upstream
 
