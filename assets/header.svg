@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 235" role="img" aria-labelledby="title desc">
+  <title id="title">Shoaib Shah</title>
+  <desc id="desc">Browser tools, data workflows, and open-source fixes</desc>
+  <defs>
+    <linearGradient id="bg" x2="100%" y2="100%"><stop stop-color="#101827"/><stop offset="1" stop-color="#202453"/></linearGradient>
+    <linearGradient id="line"><stop stop-color="#2dd4bf"/><stop offset="1" stop-color="#a5b4fc"/></linearGradient>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#a5b4fc" opacity=".1"/></pattern>
+    <style>
+      .pulse {animation: pulse 3s ease-in-out infinite}
+      @keyframes pulse {50% {opacity:.34}}
+      @media (prefers-reduced-motion: reduce) {.pulse {animation:none}}
+    </style>
+  </defs>
+  <rect width="900" height="235" rx="22" fill="url(#bg)"/>
+  <rect x="553" y="1" width="345" height="233" rx="22" fill="url(#grid)"/>
+  <path d="M588 181h64l39-49h63l37-57h54" fill="none" stroke="url(#line)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <g fill="#202453" stroke="#5eead4" stroke-width="3"><circle cx="652" cy="181" r="5"/><circle cx="754" cy="132" r="5"/></g>
+  <circle cx="845" cy="75" r="12" fill="#5eead4" opacity=".6" class="pulse"/><circle cx="845" cy="75" r="4" fill="#ccfbf1"/>
+  <text x="46" y="61" fill="#5eead4" font-family="monospace" font-size="17" letter-spacing="3">@SSHNOX</text>
+  <text x="43" y="128" fill="#f8fafc" font-family="system-ui,sans-serif" font-weight="750" font-size="62">Shoaib Shah</text>
+  <text x="46" y="169" fill="#cbd5e1" font-family="system-ui,sans-serif" font-size="19">Browser tools · Data workflows · Open source</text>
+  <rect x="46" y="191" width="96" height="3" rx="1.5" fill="url(#line)"/>
+</svg>
