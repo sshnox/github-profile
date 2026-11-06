@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./assets/header.svg" width="100%" alt="Shoaib Shah. Browser tools, data cleanup, and outreach operations." />
+<img src="./assets/header.svg" width="100%" alt="Shoaib Shah. Browser tools, data utilities, and open source." />
 
 [**About**](#about) &nbsp;·&nbsp; [**Merged upstream**](#merged-upstream) &nbsp;·&nbsp; [**Projects**](#projects) &nbsp;·&nbsp; [**Toolkit**](#toolkit) &nbsp;·&nbsp; [**Activity**](#activity) &nbsp;·&nbsp; [**Get in touch ↗**](https://linkedin.com/in/sshnox)
 
@@ -8,7 +8,7 @@
 
 ## About
 
-My day-to-day work is in business development. I clean prospect lists before they go into a CRM, set up outbound email, and review campaign results. Some of my software starts with a step I’ve done by hand often enough to know what should be easier. [Company Name Cleaner](https://github.com/sshnox/company-name-cleaner) and [Claude Usage Tracker](https://github.com/sshnox/Claude-Usage-Tracker-v2.1.0) came out of that kind of work.
+I build browser tools and data utilities. Company Name Cleaner helps review and normalize names before export. Claude Usage Tracker shows usage limits inside the chat, and Excise strips image metadata locally. [Explore the projects](#projects).
 
 When I contribute upstream, I like fixes where you can see the difference in one example. A mistyped CLI flag should tell CI the command was invalid. A knowledge graph node should keep the source text you need to expand it. [See the merged changes](#merged-upstream).
 
