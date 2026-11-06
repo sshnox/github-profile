@@ -28,12 +28,17 @@ I like building tools that take a step out of someone’s day. That might mean c
 
 See your limits under the Claude chat composer without leaving the conversation.
 
-[**Install from source ↗**](https://github.com/sshnox/Claude-Usage-Tracker-v2.1.0#readme)
+[**Install from source ↗**](https://github.com/sshnox/Claude-Usage-Tracker-v2.1.0#install) &nbsp;·&nbsp; [Source](https://github.com/sshnox/Claude-Usage-Tracker-v2.1.0/tree/main/src)
 
 <details>
-<summary>How it works</summary>
+<summary>See the widget</summary>
 
-The Chrome extension uses the active Claude session. It doesn’t ask you to paste a session token or supply an API key.
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sshnox/Claude-Usage-Tracker-v2.1.0/3fecb07273795c9794c86f9854b8ee67ec13d0b2/docs/screenshots/widget-dark.png" />
+  <img src="https://raw.githubusercontent.com/sshnox/Claude-Usage-Tracker-v2.1.0/3fecb07273795c9794c86f9854b8ee67ec13d0b2/docs/screenshots/widget.png" alt="Claude Usage Tracker widget preview with session, weekly, and Opus usage bars" width="100%" />
+</picture>
+
+Load the `src` folder as an unpacked Chromium extension, then open Claude. The widget uses your active session.
 
 </details>
 
@@ -46,12 +51,14 @@ The Chrome extension uses the active Claude session. It doesn’t ask you to pas
 
 Clean company names in the browser before importing a list into your CRM.
 
-[**View repository ↗**](https://github.com/sshnox/company-name-cleaner)
+[**Try it in your browser ↗**](https://sshnox.github.io/company-name-cleaner/) &nbsp;·&nbsp; [Source](https://github.com/sshnox/company-name-cleaner)
 
 <details>
-<summary>Where it fits</summary>
+<summary>Try a sample CSV</summary>
 
-Use it between collecting a company list and importing the records into a CRM or outreach tool.
+Open the app and import the [sample CSV](https://github.com/sshnox/company-name-cleaner/blob/644a20f6f9ccf222e49d90ffcbc6a060124b2fa6/examples/companies.csv). Set the company column to **2** and select **First row is a header**. Review the results before exporting.
+
+With the default settings, `Müller GmbH` becomes `Müller`, and `شاہ ٹیکنالوجیز` stays as entered.
 
 </details>
 
@@ -69,9 +76,9 @@ Remove C2PA, EXIF, and XMP data from images before sharing them.
 [**Open the tool ↗**](https://sshnox.github.io/excise/) &nbsp;·&nbsp; [Source](https://github.com/sshnox/excise)
 
 <details>
-<summary>Where it fits</summary>
+<summary>What happens to the image?</summary>
 
-Useful when a photo’s metadata may reveal a location, a device, or editing information you’d prefer to keep private.
+The app inspects the file in your browser and shows which metadata it finds. Choose what to remove, then download the processed copy. The file stays on your device.
 
 </details>
 
@@ -84,12 +91,12 @@ Useful when a photo’s metadata may reveal a location, a device, or editing inf
 
 An experiment in end-to-end encrypted messaging.
 
-[**Explore the code ↗**](https://github.com/sshnox/Signal-e2e-chat)
+[**Run it locally ↗**](https://github.com/sshnox/Signal-e2e-chat#run-it-locally) &nbsp;·&nbsp; [Source](https://github.com/sshnox/Signal-e2e-chat)
 
 <details>
-<summary>What’s inside</summary>
+<summary>Try a two-client session</summary>
 
-Session setup, ratcheting, safety numbers, and a WebSocket relay.
+Use Node.js 20 or later to start the relay and open two clients in separate terminals. Exchange a message and compare safety numbers. The repository also includes a local handshake and ratchet demo.
 
 </details>
 
