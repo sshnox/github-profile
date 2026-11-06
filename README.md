@@ -2,7 +2,7 @@
 
 <img src="./assets/header.svg" width="100%" alt="Shoaib Shah. I build small tools for everyday work." />
 
-[**Merged upstream**](#merged-upstream) &nbsp;·&nbsp; [**Projects**](#projects) &nbsp;·&nbsp; [**Stack**](#stack) &nbsp;·&nbsp; [**Activity**](#activity) &nbsp;·&nbsp; [**Get in touch ↗**](https://linkedin.com/in/sshnox)
+[**Merged upstream**](#merged-upstream) &nbsp;·&nbsp; [**Projects**](#projects) &nbsp;·&nbsp; [**Toolkit**](#toolkit) &nbsp;·&nbsp; [**Activity**](#activity) &nbsp;·&nbsp; [**Get in touch ↗**](https://linkedin.com/in/sshnox)
 
 </div>
 
@@ -99,13 +99,94 @@ Session setup, ratcheting, safety numbers, and a WebSocket relay.
 
 [Browse all repositories ↗](https://github.com/sshnox?tab=repositories)
 
-## Stack
+## Toolkit
 
-| What I work on | Tools | Example |
-| :--- | :--- | :--- |
-| Browser extensions | <img alt="JavaScript, HTML, CSS" height="30" src="https://skillicons.dev/icons?i=js,html,css" /> | [Claude Usage Tracker](https://github.com/sshnox/Claude-Usage-Tracker-v2.1.0) |
-| Client-side data cleanup | <img alt="JavaScript" height="30" src="https://skillicons.dev/icons?i=js" /> | [Company Name Cleaner](https://github.com/sshnox/company-name-cleaner) |
-| Messaging and developer tooling | <img alt="Node.js, Go, Git" height="30" src="https://skillicons.dev/icons?i=nodejs,go,git" /> | [Signal E2E Chat](https://github.com/sshnox/Signal-e2e-chat) · [Go Magnetar](https://github.com/wmentor/go-magnetar/pull/283) |
+The tools I use to build software, clean data, and run outreach.
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+<img src="./assets/toolkit/build.svg" alt="" width="100%" />
+
+### Languages & browser
+
+Build browser utilities and extensions, then wire up the bits that need a server.
+
+JavaScript, Node.js, React, HTML/CSS, Chrome Extensions, Vite.
+
+[Claude Usage Tracker ↗](https://github.com/sshnox/Claude-Usage-Tracker-v2.1.0)
+
+</td>
+<td width="50%" valign="top">
+
+<img src="./assets/toolkit/ai.svg" alt="" width="100%" />
+
+### AI & agents
+
+Work through code, research, and tool-connected workflows.
+
+Claude, Claude Code, Claude Desktop, ChatGPT, Codex CLI, Gemini, Google AI Studio, MCP.
+
+Also in the workspace: Antigravity and Manus.
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+<img src="./assets/toolkit/data.svg" alt="" width="100%" />
+
+### Data & cleanup
+
+Normalize names, remove duplicates, and prepare data for CRM and outreach imports.
+
+Python, SQL, CSV, client-side JavaScript.
+
+[Company Name Cleaner ↗](https://github.com/sshnox/company-name-cleaner)
+
+</td>
+<td width="50%" valign="top">
+
+<img src="./assets/toolkit/growth.svg" alt="" width="100%" />
+
+### Outreach & email
+
+Source and clean prospect lists, set up sending domains and mailboxes, and track campaign performance.
+
+Apollo, Instantly, Salesforge, Google Workspace, Microsoft 365.
+
+Deliverability: SPF, DKIM, DMARC, and inbox placement.
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+<img src="./assets/toolkit/shipping.svg" alt="" width="100%" />
+
+### Delivery & infrastructure
+
+Version code, run checks, and deploy tools people can try.
+
+Git, GitHub, GitHub Actions, Docker, Vercel, Go contributions.
+
+[Contribution animation workflow ↗](https://github.com/sshnox/github-profile/blob/main/.github/workflows/contribution-animation.yml) · [Go Magnetar ↗](https://github.com/wmentor/go-magnetar/pull/283)
+
+</td>
+<td width="50%" valign="top">
+
+<img src="./assets/toolkit/linux.svg" alt="" width="100%" />
+
+### Linux workspace
+
+Desktop and terminal environments for building and testing.
+
+Linux Mint, Cinnamon, Ubuntu, Debian.
+
+</td>
+</tr>
+</table>
 
 ## Activity
 

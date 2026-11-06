@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="160" viewBox="0 0 520 160" role="img" aria-labelledby="panel-title">
+  <title id="panel-title">Outreach &amp; email</title>
+  <defs>
+    <pattern id="dots" width="8" height="8" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r=".75" fill="#344b43"/></pattern>
+    <style>
+      .signal {animation: pulse 3.6s ease-in-out -1.28s infinite}
+      @keyframes pulse {50% {opacity:.25}}
+      @media (prefers-reduced-motion: reduce) {.signal {animation:none}}
+    </style>
+  </defs>
+  <path d="M12 1h496l11 11v136l-11 11H12L1 148V12z" fill="#101b1b" stroke="#3a544a" stroke-width="1.5"/>
+  <path d="M392 2h115l11 11v38H392z" fill="url(#dots)"/>
+  <path d="M17 45h486M17 141h486" stroke="#344b43"/>
+  <path d="M18 141h73m339 0h73" stroke="#ffcf9f" stroke-opacity=".7"/>
+  <text x="19" y="31" fill="#ffcf9f" text-anchor="start" font-size="14" font-weight="700" font-family="DejaVu Sans Mono,monospace">04</text>
+  <text x="53" y="31" fill="#edf3e8" text-anchor="start" font-size="16" font-weight="700" font-family="DejaVu Sans Mono,monospace">OUTREACH &amp; EMAIL</text>
+  <circle cx="489" cy="26" r="8" fill="#ffcf9f" opacity=".55" class="signal"/>
+  <circle cx="489" cy="26" r="3" fill="#ffcf9f"/>
+  <rect x="19" y="55" width="108" height="74" rx="7" fill="#192924" stroke="#364f45"/><text x="73" y="85" fill="#ffcf9f" text-anchor="middle" font-size="19" font-weight="700" font-family="DejaVu Sans Mono,monospace">Apollo</text><rect x="144" y="55" width="108" height="74" rx="7" fill="#192924" stroke="#364f45"/><text x="198" y="85" fill="#ffcf9f" text-anchor="middle" font-size="14" font-weight="700" font-family="DejaVu Sans Mono,monospace">Instantly</text><rect x="269" y="55" width="108" height="74" rx="7" fill="#192924" stroke="#364f45"/><text x="323" y="85" fill="#ffcf9f" text-anchor="middle" font-size="14" font-weight="700" font-family="DejaVu Sans Mono,monospace">Salesforge</text><rect x="394" y="55" width="108" height="74" rx="7" fill="#192924" stroke="#364f45"/><text x="448" y="85" fill="#ffcf9f" text-anchor="middle" font-size="19" font-weight="700" font-family="DejaVu Sans Mono,monospace">DNS</text>
+</svg>
