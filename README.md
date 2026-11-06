@@ -14,11 +14,11 @@ When I contribute upstream, I like fixes where you can see the difference in one
 
 ## Merged upstream
 
-| Project | What changed | Merged |
-| :--- | :--- | :--- |
-| **Releaseproof** | [Invalid CLI usage now exits with code 2, so a typo can’t look like a release mismatch in CI.](https://github.com/ujjwalv01/releaseproof/pull/156) | Nov 6, 2026 |
-| **Awesome LLM Apps** | [Knowledge Explorer keeps the full source text available when expanding a graph node.](https://github.com/Shubhamsaboo/awesome-llm-apps/pull/1282) | Nov 6, 2026 |
-| **Go Magnetar** | [Running `/agent` without arguments now shows the enabled agents.](https://github.com/wmentor/go-magnetar/pull/283) | Nov 4, 2026 |
+| Project | Stars | What changed | Merged |
+| :--- | ---: | :--- | :--- |
+| **Releaseproof** | 0 | [Invalid CLI usage now exits with code 2, so a typo can’t look like a release mismatch in CI.](https://github.com/ujjwalv01/releaseproof/pull/156) | Nov 6, 2026 |
+| **Awesome LLM Apps** | 144,008 | [Knowledge Explorer keeps the full source text available when expanding a graph node.](https://github.com/Shubhamsaboo/awesome-llm-apps/pull/1282) | Nov 6, 2026 |
+| **Go Magnetar** | 27 | [Running `/agent` without arguments now shows the enabled agents.](https://github.com/wmentor/go-magnetar/pull/283) | Nov 4, 2026 |
 
 ## Projects
 
