@@ -220,4 +220,4 @@ Linux Mint, Cinnamon, Ubuntu, Debian.
 
 **What’s one task you’re tired of doing by hand?**
 
-[**Message me on LinkedIn ↗**](https://linkedin.com/in/sshnox) &nbsp;·&nbsp; [Visit my site ↗](https://shoaibshah.com)
+[**Message me on LinkedIn ↗**](https://linkedin.com/in/sshnox)
