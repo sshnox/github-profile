@@ -191,7 +191,7 @@ Version code, run checks, and deploy tools people can try.
 
 Git, GitHub, GitHub Actions, Docker, Vercel, Go contributions.
 
-[Contribution animation workflow ↗](https://github.com/sshnox/github-profile/blob/main/.github/workflows/contribution-animation.yml) · [Go Magnetar ↗](https://github.com/wmentor/go-magnetar/pull/283)
+[Contribution animation workflow ↗](https://github.com/sshnox/sshnox/blob/main/.github/workflows/contribution-animation.yml) · [Go Magnetar ↗](https://github.com/wmentor/go-magnetar/pull/283)
 
 </td>
 <td width="50%" valign="top">
@@ -210,7 +210,7 @@ Linux Mint, Cinnamon, Ubuntu, Debian.
 
 ## GitHub stats
 
-<img src="https://raw.githubusercontent.com/sshnox/github-profile/stats/github-stats.svg" alt="Public GitHub stats for sshnox: repositories, followers, stars earned, and upstream merges in the last 12 months" width="100%" />
+<img src="https://raw.githubusercontent.com/sshnox/sshnox/stats/github-stats.svg" alt="Public GitHub stats for sshnox: repositories, followers, stars earned, and upstream merges in the last 12 months" width="100%" />
 
 [Open GitHub profile ↗](https://github.com/sshnox) &nbsp;·&nbsp; [View merged PRs ↗](https://github.com/pulls?q=is%3Apr+is%3Amerged+is%3Apublic+author%3Asshnox+-user%3Asshnox)
 
@@ -221,8 +221,8 @@ Linux Mint, Cinnamon, Ubuntu, Debian.
 ## Activity
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sshnox/github-profile/output/snake-dark.svg" />
-  <img src="https://raw.githubusercontent.com/sshnox/github-profile/output/snake-light.svg" alt="Animated snake moving through Shoaib’s GitHub contribution calendar" width="100%" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sshnox/sshnox/output/snake-dark.svg" />
+  <img src="https://raw.githubusercontent.com/sshnox/sshnox/output/snake-light.svg" alt="Animated snake moving through Shoaib’s GitHub contribution calendar" width="100%" />
 </picture>
 
 ## Get in touch
