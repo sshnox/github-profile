@@ -14,11 +14,20 @@ When I contribute upstream, I like fixes where you can see the difference in one
 
 ## Merged upstream
 
+**11 merged PRs across 10 projects in the past 12 months.** Each link goes to the upstream PR.
+
 | Project | Stars | What changed | Merged |
 | :--- | ---: | :--- | :--- |
-| **Releaseproof** | 0 | [Invalid CLI usage now exits with code 2, so a typo can’t look like a release mismatch in CI.](https://github.com/ujjwalv01/releaseproof/pull/156) | Nov 6, 2026 |
-| **Awesome LLM Apps** | 144,008 | [Knowledge Explorer keeps the full source text available when expanding a graph node.](https://github.com/Shubhamsaboo/awesome-llm-apps/pull/1282) | Nov 6, 2026 |
-| **Go Magnetar** | 27 | [Running `/agent` without arguments now shows the enabled agents.](https://github.com/wmentor/go-magnetar/pull/283) | Nov 4, 2026 |
+| **petl** | 1,325 | [Preserved existing rows when appending to a MemorySource.](https://github.com/petl-developers/petl/pull/796) | Nov 11, 2026 |
+| **Azure RBAC Insight** | 0 | [Kept assignments with missing filter labels visible.](https://github.com/chinmaymjog/azure-rbac-insight/pull/6) | Nov 11, 2026 |
+| **Awesome LLM Apps** | 144,399 | [Retained uploads when extraction fails.](https://github.com/Shubhamsaboo/awesome-llm-apps/pull/1281)<br />[Preserved source text for Knowledge Explorer node expansion.](https://github.com/Shubhamsaboo/awesome-llm-apps/pull/1282) | Nov 8 and 6, 2026 |
+| **Pidrang** | 2 | [Kept environment setup reminders visible on reruns.](https://github.com/pidrang/pidrang/pull/197) | Nov 7, 2026 |
+| **R2G Arango** | 5 | [Restored distinct value sampling for CSV columns.](https://github.com/arango-solutions-org/r2g-arango/pull/71) | Nov 6, 2026 |
+| **Archy** | 8 | [Assembled call graph edges in linear time.](https://github.com/hslee16/Archy/pull/840) | Nov 6, 2026 |
+| **CWTools VSCode** | 3 | [Quoted carriage returns in CSV diagnostics.](https://github.com/MillenniumDawn/cwtools-vscode/pull/1280) | Nov 6, 2026 |
+| **domq** | 11 | [Validated Markdown options in either flag order.](https://github.com/iamsaquib8/domq/pull/171) | Nov 6, 2026 |
+| **Releaseproof** | 0 | [Returned the correct exit code for invalid CLI usage.](https://github.com/ujjwalv01/releaseproof/pull/156) | Nov 6, 2026 |
+| **Go Magnetar** | 29 | [Listed enabled agents when `/agent` is called without arguments.](https://github.com/wmentor/go-magnetar/pull/283) | Nov 4, 2026 |
 
 ## Projects
 
@@ -201,13 +210,13 @@ Linux Mint, Cinnamon, Ubuntu, Debian.
 
 ## GitHub stats
 
-<img src="https://raw.githubusercontent.com/sshnox/github-profile/stats/github-stats.svg" alt="Public GitHub stats for sshnox: repositories, followers, stars earned, and upstream merges" width="100%" />
+<img src="https://raw.githubusercontent.com/sshnox/github-profile/stats/github-stats.svg" alt="Public GitHub stats for sshnox: repositories, followers, stars earned, and upstream merges in the last 12 months" width="100%" />
 
 [Open GitHub profile ↗](https://github.com/sshnox) &nbsp;·&nbsp; [View merged PRs ↗](https://github.com/pulls?q=is%3Apr+is%3Amerged+is%3Apublic+author%3Asshnox+-user%3Asshnox)
 
 ![Profile views](https://komarev.com/ghpvc/?username=sshnox&label=Profile%20views&color=375d4a)
 
-<sub>Account stats refresh hourly. Profile views count badge requests on pages where the badge appears.</sub>
+<sub>Account stats refresh hourly. Merges are counted over the trailing 12 months. Profile views count badge requests on pages where the badge appears.</sub>
 
 ## Activity
 
