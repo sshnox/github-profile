@@ -2,6 +2,7 @@
 
 import json
 import os
+from datetime import datetime, timezone
 from html import escape
 from pathlib import Path
 from urllib.parse import quote, urlencode
@@ -36,7 +37,16 @@ def account_stats(login):
             break
         page += 1
 
-    merged = fetch("/search/issues", q=f"author:{login} is:pr is:public is:merged -user:{login}", per_page=1)
+    today = datetime.now(timezone.utc).date()
+    try:
+        cutoff = today.replace(year=today.year - 1)
+    except ValueError:  # February 29: use the final day of February last year.
+        cutoff = today.replace(year=today.year - 1, day=28)
+    merged = fetch(
+        "/search/issues",
+        q=f"author:{login} is:pr is:public is:merged -user:{login} merged:>={cutoff.isoformat()}",
+        per_page=1,
+    )
     if merged["incomplete_results"]:
         raise RuntimeError("GitHub returned incomplete pull request search results")
 
@@ -44,7 +54,7 @@ def account_stats(login):
         ("Public repos", user["public_repos"]),
         ("Followers", user["followers"]),
         ("Stars earned", stars),
-        ("Upstream merges", merged["total_count"]),
+        ("Merges (12 mo)", merged["total_count"]),
     )
 
 
@@ -66,7 +76,7 @@ def render(stats):
   <text x="45" y="38" fill="#edf3e8" font-family="monospace" font-size="16" letter-spacing="2">GITHUB STATS</text>
   <text x="773" y="38" text-anchor="end" fill="#afc0b7" font-family="monospace" font-size="11" letter-spacing="1">PUBLIC ACTIVITY</text>
   {''.join(cells)}
-  <text x="27" y="182" fill="#afc0b7" font-family="monospace" font-size="10">STARS EXCLUDE FORKS · MERGES EXCLUDE PERSONAL REPOS</text>
+  <text x="27" y="182" fill="#afc0b7" font-family="monospace" font-size="10">STARS EXCLUDE FORKS · 12-MONTH MERGES EXCLUDE PERSONAL REPOS</text>
 </svg>
 '''
 
