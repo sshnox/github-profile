@@ -2,7 +2,7 @@
 
 <img src="./assets/header.svg" width="100%" alt="Shoaib Shah. Browser tools, data utilities, and open source." />
 
-[**About**](#about) &nbsp;·&nbsp; [**Merged upstream**](#merged-upstream) &nbsp;·&nbsp; [**Projects**](#projects) &nbsp;·&nbsp; [**Toolkit**](#toolkit) &nbsp;·&nbsp; [**Stats**](#github-stats) &nbsp;·&nbsp; [**Get in touch ↗**](https://linkedin.com/in/sshnox)
+[**About**](#about) &nbsp;·&nbsp; [**Merged upstream**](#merged-upstream) &nbsp;·&nbsp; [**Projects**](#projects) &nbsp;·&nbsp; [**Toolkit**](#toolkit) &nbsp;·&nbsp; [**Stats**](#github-stats) &nbsp;·&nbsp; [**Contribution activity**](#contribution-activity) &nbsp;·&nbsp; [**Get in touch ↗**](https://linkedin.com/in/sshnox)
 
 </div>
 
@@ -161,6 +161,12 @@ Prefer local-first tools, visible proof, small focused fixes, and documentation 
 ![Profile views](https://komarev.com/ghpvc/?username=sshnox&label=Profile%20views&color=375d4a)
 
 <sub>Account stats refresh hourly. Merges are counted over the trailing 12 months. Profile views count badge requests on pages where the badge appears.</sub>
+
+## Contribution activity
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sshnox/sshnox/output/snake-dark.svg" />
+  <img src="https://raw.githubusercontent.com/sshnox/sshnox/output/snake-light.svg" alt="Snake animation of Shoaib’s GitHub contribution activity" width="100%" />
+</picture>
 
 ## Get in touch
 
