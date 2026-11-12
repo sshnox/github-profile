@@ -2,7 +2,7 @@
 
 <img src="./assets/header.svg" width="100%" alt="Shoaib Shah. Browser tools, data utilities, and open source." />
 
-[**About**](#about) &nbsp;·&nbsp; [**Merged upstream**](#merged-upstream) &nbsp;·&nbsp; [**Projects**](#projects) &nbsp;·&nbsp; [**Toolkit**](#toolkit) &nbsp;·&nbsp; [**Stats**](#github-stats) &nbsp;·&nbsp; [**Activity**](#activity) &nbsp;·&nbsp; [**Get in touch ↗**](https://linkedin.com/in/sshnox)
+[**About**](#about) &nbsp;·&nbsp; [**Merged upstream**](#merged-upstream) &nbsp;·&nbsp; [**Projects**](#projects) &nbsp;·&nbsp; [**Toolkit**](#toolkit) &nbsp;·&nbsp; [**Stats**](#github-stats) &nbsp;·&nbsp; [**Get in touch ↗**](https://linkedin.com/in/sshnox)
 
 </div>
 
@@ -121,90 +121,33 @@ Use Node.js 20 or later to start the relay and open two clients in separate term
 [Browse all repositories ↗](https://github.com/sshnox?tab=repositories)
 
 ## Toolkit
-
-The tools I use to build software, clean data, and run outreach.
-
+A focused stack for browser utilities, data cleanup, and small open-source fixes.
 <table>
 <tr>
 <td width="50%" valign="top">
-
 <img src="./assets/toolkit/build.svg" alt="" width="100%" />
-
-### Languages & browser
-
-Build browser utilities and extensions, then wire up the bits that need a server.
-
-JavaScript, Node.js, React, HTML/CSS, Chrome Extensions, Vite.
-
+### Browser tools
+JavaScript, TypeScript, React, Vite, HTML/CSS, and Chrome Extensions for small utilities people can use immediately.
 [Claude Usage Tracker ↗](https://github.com/sshnox/Claude-Usage-Tracker-v2.1.0)
-
 </td>
 <td width="50%" valign="top">
-
-<img src="./assets/toolkit/ai.svg" alt="" width="100%" />
-
-### AI & agents
-
-Work through code, research, and tool-connected workflows.
-
-Claude, Claude Code, Claude Desktop, ChatGPT, Codex CLI, Gemini, Google AI Studio, MCP.
-
-Also in the workspace: Antigravity and Manus.
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
 <img src="./assets/toolkit/data.svg" alt="" width="100%" />
-
-### Data & cleanup
-
-Normalize names, remove duplicates, and prepare data for CRM and outreach imports.
-
-Python, SQL, CSV, client-side JavaScript.
-
+### Data utilities
+Python, SQL, CSV, and client-side processing for normalization, extraction, and privacy-conscious workflows.
 [Company Name Cleaner ↗](https://github.com/sshnox/company-name-cleaner)
-
-</td>
-<td width="50%" valign="top">
-
-<img src="./assets/toolkit/growth.svg" alt="" width="100%" />
-
-### Outreach & email
-
-Source and clean prospect lists, set up sending domains and mailboxes, and track campaign performance.
-
-Apollo, Instantly, Salesforge, Google Workspace, Microsoft 365.
-
-Deliverability: SPF, DKIM, DMARC, and inbox placement.
-
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-
 <img src="./assets/toolkit/shipping.svg" alt="" width="100%" />
-
-### Delivery & infrastructure
-
-Version code, run checks, and deploy tools people can try.
-
-Git, GitHub, GitHub Actions, Docker, Vercel, Go contributions.
-
-[Contribution animation workflow ↗](https://github.com/sshnox/sshnox/blob/main/.github/workflows/contribution-animation.yml) · [Go Magnetar ↗](https://github.com/wmentor/go-magnetar/pull/283)
-
+### Delivery & open source
+Git, GitHub Actions, Docker, Vercel, and CLI tooling for repeatable checks, releases, and contributions.
+[GitHub Stats ↗](https://github.com/sshnox/github-stats)
 </td>
 <td width="50%" valign="top">
-
 <img src="./assets/toolkit/linux.svg" alt="" width="100%" />
-
-### Linux workspace
-
-Desktop and terminal environments for building and testing.
-
-Linux Mint, Cinnamon, Ubuntu, Debian.
-
+### Working style
+Prefer local-first tools, visible proof, small focused fixes, and documentation that shows the result in one example.
 </td>
 </tr>
 </table>
@@ -218,13 +161,6 @@ Linux Mint, Cinnamon, Ubuntu, Debian.
 ![Profile views](https://komarev.com/ghpvc/?username=sshnox&label=Profile%20views&color=375d4a)
 
 <sub>Account stats refresh hourly. Merges are counted over the trailing 12 months. Profile views count badge requests on pages where the badge appears.</sub>
-
-## Activity
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sshnox/sshnox/output/snake-dark.svg" />
-  <img src="https://raw.githubusercontent.com/sshnox/sshnox/output/snake-light.svg" alt="Animated snake moving through Shoaib’s GitHub contribution calendar" width="100%" />
-</picture>
 
 ## Get in touch
 
