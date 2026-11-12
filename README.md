@@ -14,10 +14,11 @@ When I contribute upstream, I like fixes where you can see the difference in one
 
 ## Merged upstream
 
-**11 merged PRs across 10 projects in the past 12 months.** Each link goes to the upstream PR.
+**12 merged PRs across 11 projects in the past 12 months.** Each link goes to the upstream PR.
 
 | Project | Stars | What changed | Merged |
 | :--- | ---: | :--- | :--- |
+| **jc** | 8,703 | [Preserved leading whitespace in filenames parsed from `wc` output.](https://github.com/kellyjonbrazil/jc/pull/902) | Nov 11, 2026 |
 | **petl** | 1,325 | [Preserved existing rows when appending to a MemorySource.](https://github.com/petl-developers/petl/pull/796) | Nov 11, 2026 |
 | **Azure RBAC Insight** | 0 | [Kept assignments with missing filter labels visible.](https://github.com/chinmaymjog/azure-rbac-insight/pull/6) | Nov 11, 2026 |
 | **Awesome LLM Apps** | 144,399 | [Retained uploads when extraction fails.](https://github.com/Shubhamsaboo/awesome-llm-apps/pull/1281)<br />[Preserved source text for Knowledge Explorer node expansion.](https://github.com/Shubhamsaboo/awesome-llm-apps/pull/1282) | Nov 8 and 6, 2026 |
