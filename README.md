@@ -16,7 +16,7 @@ When I contribute upstream, I like fixes where you can see the difference in one
 
 **12 merged PRs across 11 projects in the past 12 months.** Each link goes to the upstream PR.
 
-| Project | Stars | What changed |
+| Project | ⭐ Stars | What changed |
 | :--- | ---: | :--- |
 | **jc** | 8,703 | [Preserved leading whitespace in filenames parsed from `wc` output.](https://github.com/kellyjonbrazil/jc/pull/902) |
 | **petl** | 1,325 | [Preserved existing rows when appending to a MemorySource.](https://github.com/petl-developers/petl/pull/796) |
