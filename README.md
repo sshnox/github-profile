@@ -159,6 +159,7 @@ Prefer local-first tools, visible proof, small focused fixes, and documentation 
 [Open GitHub profile ↗](https://github.com/sshnox) &nbsp;·&nbsp; [View merged PRs ↗](https://github.com/pulls?q=is%3Apr+is%3Amerged+is%3Apublic+author%3Asshnox+-user%3Asshnox)
 
 ![Profile views](https://komarev.com/ghpvc/?username=sshnox&label=Profile%20views&color=375d4a)
+[![Rankistan rank badge](https://img.shields.io/endpoint?url=https%3A%2F%2Frankistan-summary-api.academics-ali.workers.dev%2Fapi%2Fbadge%2Fsshnox&style=flat)](https://rankistan.dev/#sshnox)
 
 <sub>Account stats refresh hourly. Merges are counted over the trailing 12 months. Profile views count badge requests on pages where the badge appears.</sub>
 
